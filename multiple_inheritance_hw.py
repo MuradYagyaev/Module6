@@ -14,7 +14,7 @@ class Car:
 
 class Nissan(Car, Vehicle):
     price = 3000000
-    vehicle_type = "Car"
+    vehicle_type = "Легковой автомобиль"
 
     def horse_powers(self):
         self.power = 140
